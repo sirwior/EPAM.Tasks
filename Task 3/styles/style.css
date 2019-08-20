@@ -1,0 +1,32 @@
+body { white-space: pre-line; }
+.cell {
+    height: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3%;
+    text-align: center;
+    border-color: green;
+}
+.table {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 5px;
+}
+.row {
+    display:table-row;
+}
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 150px;
+}
+.new_price {
+    font-weight: bold;
+    color: red; 
+}
+
+.old_price {
+    font-weight: bold;
+   text-decoration: grey line-through;
+}
